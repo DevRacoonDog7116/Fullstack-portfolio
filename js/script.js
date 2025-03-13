@@ -7,7 +7,7 @@ cadre.addEventListener('mousemove', (event) => {
     const y = event.clientY - rect.top;
 
     hoverEffect.style.transform = `translate(${x - 50}px, ${y - 50}px)`;
-});
+}); 
 
 cadre.addEventListener('mouseleave', () => {
     hoverEffect.style.transform = 'translate(-150%, -150%)';
