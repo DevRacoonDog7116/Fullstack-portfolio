@@ -1,6 +1,6 @@
 const cadre = document.querySelector('.cadre');
 const hoverEffect = document.querySelector('.hover-effect');
-
+   
 cadre.addEventListener('mousemove', (event) => {
     const rect = cadre.getBoundingClientRect();
     const x = event.clientX - rect.left;
